@@ -16,26 +16,38 @@
     
 </head>
 <body>
-    <!--Header-->
-    <header class="header">
-        <div class="container vh-60">
-  
-          <nav class="row text-white justify-content-between align-items-center text-uppercase pt-4">
-        
-            <!--Logo-->
-              <a href="index.html" class="col-12 col-md-auto text-reset text-center mb-5 mb-md-0" >
-                  <img src="img/STUDIO G blanco.png" alt="logo studioG" class="img-logo" ></a>
-                  <!--Anclas-->
-                  <div class="col-12 col-md-auto d-flex flex-wrap justify-content-around fw-bold">
-                     <a href="index.html" class="text-reset pr-3">Inicio</a></li>
-                     <a href="trabajos.html" class="text-reset pr-3">Trabajos</a></li>
-                     <a href="portfolio.html"  class="text-reset pr-3">Portfolio</a></li>
-                     <a href="servicios.html"  class="text-reset pr-3">servicios</a></li>
-                     <a href="contacto.html" class="text-reset">Contacto</a></li>
-                   </div>
-          </nav>
-          </div>
-          
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img height="100px" src="img/STUDIO G blanco.png" alt="Logo studioG"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav pull-xl-left">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Portfolio
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item text-white" href="fotografias.html">Fotografias</a></li>
+                <li><a class="dropdown-item text-white" href="portfolio.html">Render</a></li>
+                <li><a class="dropdown-item text-white" href="trabajos.html">Proyectos</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
           <img src="img/cut-header.svg" alt="">
 
       </header>
