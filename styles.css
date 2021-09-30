@@ -168,11 +168,11 @@ ul {
 }
 
 .about-text .btn {
-  border-color: var(--orange);
+  border-color: #FF8C00;
 }
 
 .about-text .btn:hover {
-  background-color: var(--orange);
+  background-color: #FF8C00;
 }
 
 /* features */
@@ -182,19 +182,19 @@ ul {
 }
 
 .features-text .line {
-  background-color: var(--blue);
+  background-color: #FFD700;
 }
 
 .features-text .title h3 {
-  color: var(--blue);
+  color: #FFD700;
 }
 
 .features-text .btn {
-  border-color: var(--blue);
+  border-color: #FF8C00;
 }
 
 .features-text .btn:hover {
-  background-color: var(--blue);
+  background-color: #FF8C00;
 }
 
 /* studio */
@@ -204,19 +204,19 @@ ul {
 }
 
 .studio-text .line {
-  background-color: var(--yellow);
+  background-color: #FFD700;
 }
 
 .studio-text .title h3 {
-  color: var(--yellow);
+  color: #FFD700;
 }
 
 .studio-text .btn {
-  border-color: var(--yellow);
+  border-color: #FF8C00;
 }
 
 .studio-text .btn:hover {
-  background-color: var(--yellow);
+  background-color: #FF8C00;
 }
 
 /*servicios*/
@@ -235,24 +235,19 @@ ul {
 }
 
 .card {
-  -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
-  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
           clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%, 0 100%, 0 50%, 0 0);
 }
 
 .card-effect:hover .card {
-  -webkit-clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
           clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%, 50% 100%, 0 50%, 0 50%);
 }
 
 .card-img-overlay {
-  -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
 }
 
 .card-effect:hover .card-img-overlay {
-  -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
 
@@ -303,8 +298,7 @@ ul {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  /*escribo AUTO cuatro veces porque quiero cuatro filas*/
+      grid-template-columns: auto auto auto auto;/*escribo AUTO cuatro veces porque quiero cuatro filas*/
   grid-gap: 2vh;
   grid-auto-flow: dense;
 }
@@ -344,11 +338,9 @@ ul {
 .main .gallery .img img {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
      object-fit: cover;
           filter: brightness(0.5) grayscale(100);
   border-radius: 2px;
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
